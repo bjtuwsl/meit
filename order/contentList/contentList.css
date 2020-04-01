@@ -1,0 +1,91 @@
+.order-item{
+  border-top: .65rem solid #efefef;
+
+}
+.order-item .order-item-inner{
+  display: flex;
+  padding-bottom: .9rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.order-item .item-img{
+  width: 2rem;
+  height: 2rem;
+  margin-top: .4rem;
+  margin-left: .8rem;
+  display: block;
+  border-radius: 50%;
+}
+.order-item .item-right{
+  flex: 1;
+  margin-left: .75rem;
+  font-size: 14px;
+}
+.order-item .item-top{
+  height: 2.75rem;
+  padding-top: .1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+.order-item .order-name{
+  font-size: 16px;
+  width: 9rem;
+  height: .8rem;
+  font-weight: 600;
+}
+.order-item .arrow{
+  width: .4rem;
+  height: .4rem;
+  border: 1px solid #999;
+  border-width: 1px 1px 0 0;
+  transform: rotate(45deg);
+}
+.order-item .order-state{
+  font-size: 14px;
+  margin-left: 2rem;
+  color: #999;
+}
+.order-item .product-item{
+  font-size: 14px;
+  color: #666;
+  margin-top: .6rem;
+}
+.order-item .p-count{
+  float: right;
+  margin-right: .75rem;
+}
+.order-item .p-total-count{
+  float: right;
+  margin-right: .75rem;
+  font-size: 12px;
+}
+.order-item .total-price{
+  font-size: 14px;
+  color: #151515;
+  margin-left: .1rem;
+}
+.order-item .evalution{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.order-item .evalution-btn{
+  float: right;
+  width: 5rem;
+  height: 1.6rem;
+  color: #6b450a;
+  background-color: #ffd161;
+  font-size: 14px;
+  line-height: 1.6rem;
+  text-align: center;
+  margin-right: .5rem;
+}
+.loading{
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  font-size: 16px;
+  text-align: center;
+  color: #ccc;
+}
+.wrapper{
+  padding-bottom: 2.5rem;
+}

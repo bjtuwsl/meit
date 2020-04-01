@@ -1,0 +1,89 @@
+.right-content{
+  flex: 1;
+  margin-left: .5rem;
+  height: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.right-content .right-list{
+  height: 100%;
+  overflow: auto;
+}
+.right-content .right-list-inner{
+  font-size: 16px;
+  padding-bottom: 4.25rem;
+}
+.right-content .right-title{
+  font-size: 13px;
+  color: #333;
+  margin-top: .5rem;
+  padding-left: .2rem;
+  border-left: .1rem solid #ffd161;
+}
+.right-content .menu-item{
+  display: flex;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+}
+.right-content .menu-item .img{
+  width: 3.1rem;
+  height: 3.1rem;
+  margin-right: .5rem;
+}
+.right-content .menu-item-right{
+  flex: 1;
+}
+.right-content .item-title{
+  font-size: 16px;
+  color: #2f2f2f;
+}
+.right-content .item-zan,
+.right-content .item-desc{
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-top: .3rem;
+  line-height: .7rem;
+  padding-right: .2rem;
+}
+.right-content .item-desc{
+  line-height: .85rem;
+}
+.right-content .item-price{
+  margin-top: .5rem;
+  color: #fe4d3d;
+  font-size: 18px;
+}
+.right-content .unit{
+  color: #a9a9a9;
+  font-size: 12px;
+}
+.right-content .select-content{
+  position: absolute;
+  right: .45rem;
+  bottom: 1.05rem;
+  display: flex;
+}
+.right-content .plus{
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url('./img/plus.png');
+  background-size: cover;
+}
+.right-content .minus{
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url('./img/minus.png');
+  background-size: cover;
+}
+.right-content .count{
+  font-size: 15px;
+  color: #2f2f2f;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  margin-left: .1rem;
+  margin-right: .1rem;
+  text-align: center;
+}

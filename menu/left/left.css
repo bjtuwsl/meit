@@ -1,0 +1,42 @@
+.menu-inner{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 5.5rem;
+  display: flex;
+  overflow: hidden;
+}
+.menu-inner .left-bar{
+  width: 4.25rem;
+  background-color: #efefef;
+  overflow: auto;
+  height: 100%;
+  /* 苹果顺滑滚动 */
+  -webkit-overflow-scrolling: touch;
+}
+.menu-inner .left-bar-inner{
+  padding-bottom: 4.25rem;
+}
+.menu-inner .left-item{
+  font-size: 14px;
+  color: #656565;
+  text-align: center;
+  border-bottom: 1px solid #bfbfbf;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.menu-inner .left-item.active{
+  background-color: #fff;
+}
+.menu-inner .item-text{
+  text-align: center;
+}
+.menu-inner .item-icon{
+  width: 1rem;
+  height: 1rem;
+  vertical-align: -0.25rem;
+  margin-right: .25rem
+}

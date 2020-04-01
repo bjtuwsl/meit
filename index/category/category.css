@@ -1,0 +1,18 @@
+.category-content{
+  padding-bottom: .5rem;
+}
+.category-content .category-item{
+  float: left;
+  width: 25%;
+  padding-top: .7rem;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category-content .item-icon{
+  width: 2.35rem;
+}
+.category-content .item-name{
+  margin-top: .7rem;
+}
